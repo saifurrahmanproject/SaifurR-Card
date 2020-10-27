@@ -11,6 +11,7 @@
 		424DD9FA2547E8E000B2321B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424DD9F92547E8E000B2321B /* ContentView.swift */; };
 		424DD9FC2547E8E100B2321B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424DD9FB2547E8E100B2321B /* Assets.xcassets */; };
 		424DD9FF2547E8E100B2321B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424DD9FE2547E8E100B2321B /* Preview Assets.xcassets */; };
+		424DDA092547EF7C00B2321B /* GreatVibes-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424DDA082547EF7C00B2321B /* GreatVibes-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		424DD9FB2547E8E100B2321B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		424DD9FE2547E8E100B2321B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		424DDA002547E8E100B2321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424DDA082547EF7C00B2321B /* GreatVibes-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreatVibes-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		424DD9F62547E8E000B2321B /* SaifurR Card */ = {
 			isa = PBXGroup;
 			children = (
+				424DDA072547EF5200B2321B /* Fonts */,
 				424DD9F72547E8E000B2321B /* SaifurR_CardApp.swift */,
 				424DD9F92547E8E000B2321B /* ContentView.swift */,
 				424DD9FB2547E8E100B2321B /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				424DD9FE2547E8E100B2321B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		424DDA072547EF5200B2321B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				424DDA082547EF7C00B2321B /* GreatVibes-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			files = (
 				424DD9FF2547E8E100B2321B /* Preview Assets.xcassets in Resources */,
 				424DD9FC2547E8E100B2321B /* Assets.xcassets in Resources */,
+				424DDA092547EF7C00B2321B /* GreatVibes-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
